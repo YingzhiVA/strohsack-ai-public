@@ -1,0 +1,25 @@
+# Core Dependencies
+# 0.105.0 is the minimum that ships BetaMemoryTool20250818Param (needed for M2B).
+anthropic>=0.105.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Web Interface (Milestone 1C)
+# st.write_stream landed in 1.31; pin the floor there.
+streamlit>=1.31.0
+
+# Data & Storage
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Future: Voice Interface (commented out for now)
+# openai-whisper>=20231117
+# pyaudio>=0.2.13
+# sounddevice>=0.4.6
+
+# Utilities
+requests>=2.31.0
+pyyaml>=6.0
+
+# Date/Time
+python-dateutil>=2.8.2
